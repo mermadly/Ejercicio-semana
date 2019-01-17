@@ -9,58 +9,44 @@ var diaST= diaST.replace (/ú/g, 'u');
 
 switch (diaST) {
     case 'lunes':
-    document.write ('Hoy es lunes.');
-    break;
-    case 'martes':
-    document.write('Hoy es martes.');
-    break;
-    case 'miercoles':
-    document.write ('Hoy es miércoles.');
-    break;
-    case 'jueves':
-    document.write ('Hoy es jueves');
-    break;
-    case 'viernes':
-    document.write ('Hoy es viernes.');
-    break;
-    case 'sabado':
-    document.write ('Hoy es sábado.');
-    break;
-    case 'domingo':
-    document.write ('Hoy es domingo.');
-    break;
-    case 'osvaldo':
-    document.write('Hoy es Osvaldo.');
-    break;
-    default: document.write (diaST, ' no es un día válido.');
-}
-
-document.write ('<br>');
-
-switch (diaST) {
-    case 'lunes':
+    document.write ('Hoy es lunes.');    
+    document.write ('<br>');
     document.write ('Mañana es martes.');
     break;
     case 'martes':
+    document.write('Hoy es martes.');
+    document.write ('<br>');
     document.write('Mañana es miércoles.');
     break;
     case 'miercoles':
+    document.write ('Hoy es miércoles.');
+    document.write ('<br>');
     document.write ('Mañana es jueves.');
     break;
     case 'jueves':
+    document.write ('Hoy es jueves');
+    document.write ('<br>');
     document.write ('Mañana es viernes.');
     break;
     case 'viernes':
+    document.write ('Hoy es viernes.');
+    document.write ('<br>');
     document.write ('Mañana es sábado.');
     break;
     case 'sabado':
+    document.write ('Hoy es sábado.');
+    document.write ('<br>');
     document.write ('Mañana es domingo.');
     break;
     case 'domingo':
+    document.write ('Hoy es domingo.');
+    document.write ('<br>');
     document.write ('Mañana es día Osvaldo.');
     break;
     case 'osvaldo':
+    document.write('Hoy es Osvaldo.');
+    document.write ('<br>');
     document.write('Felicidades, vivís en un día inventado.');
     break;
-    default: document.write ('Por favor recargue la página e ingrese un día válido.');
+    default: document.write (diaST, ' no es un día válido. Por favor recargue la página e ingrese un día válido.');
 }
